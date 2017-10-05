@@ -5,7 +5,7 @@ using Android.OS;
 
 namespace BarcodeScanner.Droid
 {
-   [Activity(Label = "BarcodeScanner", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+   [Activity(Label = "Barcode Scanner", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
    public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity
    {
       protected override void OnCreate(Bundle bundle)
